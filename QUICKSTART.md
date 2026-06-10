@@ -1,6 +1,6 @@
 # QUICKSTART: Getting Started Guide
 
-## Step 1: Installation (5 minutes)
+## Step 1: Installation 
 
 ### Windows
 ```bash
@@ -20,7 +20,7 @@ source .venv/bin/activate
 pip install -r requirements.txt
 ```
 
-## Step 2: Configuration (3 minutes)
+## Step 2: Configuration 
 
 ### Prepare environment variables
 ```bash
@@ -44,7 +44,7 @@ python scripts/check_api.py
 
 You should see: OK
 
-## Step 3: Prepare Manuals (2 minutes)
+## Step 3: Prepare Manuals 
 
 ### Options:
 
@@ -77,7 +77,7 @@ Chapter 2: Installation
 To install the system...
 ```
 
-## Step 4: Run Build (5-30 minutes)
+## Step 4: Run Build 
 
 ```bash
 python scripts/build.py --manual-id my_manual --mode resume-compatible

@@ -23,7 +23,7 @@
   - **Mistral AI** (primary) or **Qwen** (alternative)
   - **GraphDB** (optional, for publication)
 
-## Quick Start (5 minutes)
+## Quick Start 
 
 ### 1. Clone and Setup
 
