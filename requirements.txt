@@ -1,0 +1,45 @@
+# ==========================================
+# SemanticRAG - Python Dependencies
+# ==========================================
+
+# --- Core & Environment ---
+python-dotenv==1.0.1      # Environment configuration from .env
+click==8.1.7              # CLI framework
+pydantic==2.6.4           # Configuration validation
+
+# --- LLM Integration ---
+mistralai==0.1.8          # Mistral AI SDK
+requests==2.32.4          # HTTP requests
+aiohttp==3.9.3            # Async HTTP (for parallel processing)
+chardet==5.2.0            # Character encoding detection
+
+# --- Semantic Web & Knowledge Graph ---
+rdflib==7.0.0             # RDF parsing, manipulation, serialization
+SPARQLWrapper==2.0.0      # SPARQL query wrapper
+
+# --- Data Processing ---
+pandas==2.2.1             # DataFrames and data manipulation
+numpy==1.26.4             # Numerical operations
+
+# --- Database & Persistence ---
+psycopg2-binary==2.9.9    # PostgreSQL driver (optional, for TimescaleDB)
+
+# --- Utilities ---
+tqdm==4.66.2              # Progress bars
+pyyaml==6.0               # YAML parsing
+jsonschema==4.21.1        # JSON schema validation
+
+# --- Testing (Development) ---
+pytest==7.4.3             # Test framework
+pytest-cov==4.1.0         # Coverage reporting
+pytest-asyncio==0.23.2    # Async test support
+
+# --- Code Quality (Development) ---
+black==23.12.1            # Code formatter
+flake8==6.1.0             # Linter
+mypy==1.7.1               # Type checking
+isort==5.13.2             # Import sorting
+
+# --- Documentation (Optional) ---
+sphinx==7.2.6             # Documentation generator
+sphinx-rtd-theme==2.0.0   # ReadTheDocs theme
